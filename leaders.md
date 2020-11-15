@@ -1,3 +1,3 @@
 ### Leaders
-* [Dmitriy Beryoza](mailto://dmitriy.beryoza@owasp.org)
-* [Ron Craig](mailto://roncraig@us.ibm.com)
+* Dmitriy Beryoza ([@beryozad](https://github.com/beryozad)) - dmitriy.beryoza at owasp dot org 
+* Ron Craig ([@FrugalGuy](https://github.com/FrugalGuy)) - roncraig at us dot ibm dot com
