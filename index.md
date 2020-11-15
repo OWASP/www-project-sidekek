@@ -2,10 +2,10 @@
 
 layout: col-sidebar
 title: OWASP SideKEK
-tags: example-tag
-level: 1
-type: code/tool/documentation or other
-pitch: A very brief, one-line description of your project
+tags: owasp-sidekek
+level: 2
+type: code
+pitch: Simple tool to protect cryptographic master keys (key encryption keys, KEKs) in a way that is resistant to some of the most common remote file exfiltration attacks.
 
 ---
 
