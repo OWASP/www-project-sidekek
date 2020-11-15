@@ -2,21 +2,27 @@
 
 layout: col-sidebar
 title: OWASP SideKEK
-tags: owasp-sidekek
+tags: SideKEK master key
 level: 2
 type: code
 pitch: Simple tool to protect cryptographic master keys (key encryption keys, KEKs) in a way that is resistant to some of the most common remote file exfiltration attacks.
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+SideKEK provides inexpensive means to protect cryptographic master keys (key encryption keys, KEKs) in a way that is resistant to some of the most common remote file exfiltration attacks.
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+## Introduction
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+Development teams often have to store sensitive information encrypted with a series of hierarchical encryption keys culminating with a Key Encryption Key (KEK). This key has to be stored
+somewhere, and the best place for it is an HSM. However, in some projects HSM is not available, and KEKs have to stored in the local file system, where they can fall prey to 
+a number of possible file exfiltration vulnerabilities (Path Traversal, XXE, LFI, etc).
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+SideKEK is a tool that helps secure KEKs in such cases.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+It is a small Java library that stores them in a local file systems in a way that is resistant to most file exfiltration methods. 
+This is done in such a way that the application can retrieve encryption keys easily, but the attacker would need to achieve Remote Code Execution (RCE) privileges on the system 
+to be able to do the same (at which point HSM could become insecure as well).
 
-type: code, tool, documentation, or other
+If this approach fits the needs of your product feel free to use the library and modify it to your needs. We also welcome contributions, bug fixes, and implementations in other languages.
+
+For more details see our [GitHub repository](https://github.com/OWASP/SideKEK) or reach out to the authors.

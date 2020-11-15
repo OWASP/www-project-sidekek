@@ -1,4 +1,3 @@
 ### Leaders
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
+* [Dmitriy Beryoza](mailto://dmitriy.beryoza@owasp.org)
+* [Ron Craig](mailto://roncraig@us.ibm.com)
