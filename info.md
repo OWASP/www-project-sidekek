@@ -17,7 +17,7 @@
 
 ### Presentations
 
-* [Global AppSec DC 2019 Presentation](https://github.com/OWASP/SideKEK/blob/master/media/KeysUnderDoormats-slides-GlobalAppSecDC-2019-09-13.pdf)
+* [Global AppSec DC 2019 Presentation](https://github.com/OWASP/SideKEK/blob/master/media/KeysUnderDoormats-slides-GlobalAppSecDC-2019-09-13.pdf) ([Video](https://www.youtube.com/watch?v=BCSFixmqxuQ))
 * [BSides Ottawa 2019](https://github.com/OWASP/SideKEK/blob/master/media/KeysUnderDoormats-slides-BSidesOttawa2019.pdf)
 
 ### Licensing
